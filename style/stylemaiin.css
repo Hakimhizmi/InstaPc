@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Joan&family=Pacifico&family=Spline+Sans+Mono:wght@300&display=swap');
+
+body {
+    background-color: #f8f8f8;
+}
+
+.logo {
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: x-large;
+    color: #6c75f4;
+
+}
+
+.logo:hover {
+    color: rgba(0, 0, 0, .6);
+}
+
+.frame {
+    background-color: #fff;
+    width: 1410px;
+    height: 100%;
+    overflow-y: scroll;
+    margin-left: 50px;
+    margin-top: 20px;
+
+
+
+}
+
+.frame {
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+footer {
+    color: #555;
+    font-weight: 300;
+
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0 0 10px;
+    font-weight: 300;
+}
+
+footer p a {
+    color: #555;
+    font-weight: 400;
+}
+
+footer p a:hover {
+    color: #9f26aa;
+    text-decoration: none;
+}
+
+.navbar {
+    background: white;
+    color: #333;
+    height: 50px;
+    border-radius: 120px / 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .6);
+}
+
+.logo {
+    margin-left: 200px;
+}
+
+.rr1 {
+    margin-left: 700px;
+}
+
+.rr {
+    padding-right: 40px;
+}
+
+.frame::-webkit-scrollbar {
+    display: none;
+}
+
+.rr:hover {
+    filter: grayscale(100%)
+}
+
+.header {
+    background: white;
+    color: #333;
+
+
+    left: 0;
+    right: 0;
+    height: 50px;
+    top: 0;
+    border-radius: 120px / 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .6);
+
+}
+
+
+.header-content {
+    max-width: 930px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+.frm {
+    box-sizing: border-box;
+    border: 1px solid silver;
+    border-radius: 10px;
+    height: 580px;
+    margin-left: 290px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+#image {
+    width: 100%;
+    max-width: 100%;
+    height: 85%;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: bold;
+}
+
+img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Joan&family=Nuosu+SIL&family=Pacifico&family=Spline+Sans+Mono:wght@300&display=swap');
+
+marquee {
+    font-family: 'Spline Sans Mono', monospace;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.fa-heart-o {
+    color: red;
+    cursor: pointer;
+
+}
+
+.fa-heart {
+    color: red;
+    cursor: pointer;
+}
+
+#heart {
+    margin-top: 5px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+    padding: 25px;
+    font-weight: 300;
+
+}
+
+.footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+    margin: 0 0 10px;
+    font-weight: 300;
+}
+
+footer p a {
+    color: #555;
+    font-weight: 400;
+}
+
+footer p a:hover {
+    color: #9f26aa;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a:hover {
+    text-decoration: none !important;
+
+}
+
+
+
+
+
+
+.card {
+    background-color: #fff;
+    width: 280px;
+    border-radius: 33px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem !important;
+    margin-top: 25px;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 10px;
+    border: 2px solid #5957f9;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #272727;
+    position: relative;
+    top: 8px;
+}
+
+.mail {
+    font-size: 14px;
+    color: grey;
+    position: relative;
+    top: 2px;
+}
+
+.middle-container {
+    background-color: #eee;
+    border-radius: 12px;
+
+}
+
+.middle-container:hover {
+    border: 1px solid #5957f9;
+}
+
+.dollar-div {
+    background-color: #5957f9;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.round-div {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dollar {
+    font-size: 16px !important;
+    color: #5957f9 !important;
+    font-weight: bold !important;
+}
+
+
+.current-balance {
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold;
+}
+
+.amount {
+    color: #5957f9;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dollar-sign {
+    font-size: 16px;
+    color: #272727;
+    font-weight: bold;
+}
+
+.recent-border {
+    border-left: 2px solid #5957f9;
+    display: flex;
+    align-items: center;
+
+}
+
+.recent-border:hover {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.recent-orders {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5957f9;
+    margin-left: 2px;
+}
+
+.wishlist {
+    font-size: 16px;
+    font-weight: 700;
+    color: #272727;
+
+
+}
+
+.wishlist-border:hover {
+    border-bottom: 1px solid #91adc9 !important;
+}
+
+.fashion-studio {
+    font-size: 16px;
+    font-weight: 700;
+    color: #272727;
+}
+
+.fashion-studio-border:hover {
+    border-bottom: 1px solid #b5cde6 !important;
+}
+
+
